@@ -8,15 +8,11 @@ import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 
-export default class Index extends React.Component {
-  render() {
-      return (
-        <div>
-          <Home />
-          <About />
-          <Projects />
-          <Contact />
-        </div>
-      );
-  }
-}
+const mains = [<Home />, <About />, <Projects />, <Contact />]
+
+const Index = () =>
+  <div className='index-wrapper'>
+    {mains.map((p, i) => <div key={i} className='index-main-wrapper'>{p}</div>)}
+  </div>
+
+export default Index
