@@ -1,6 +1,6 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
-import ProjectItem from './projectitem'
+import ProjectItem from './projectItem'
 
 const Projects = () =>
   <main className='Projects'>
