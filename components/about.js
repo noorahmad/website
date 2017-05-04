@@ -6,7 +6,10 @@ const About = () =>
     <section>
       <h1>About Me</h1>
         <div>
-          <p>this is where a picture of me will</p>
+          <img
+            src={prefixLink('/img/me.jpg')}
+            alt='Photo of Noor'
+          />
         </div>
       <p>I am on my journey to becoming a full stack software developer who</p>
       <p>likes the beauty in simplicity. A big fan of soccer and my favorite team </p>

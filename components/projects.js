@@ -1,23 +1,24 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
+import ProjectItem from './projectitem'
 
-const Portfolio = () =>
-  <main className='Portfolio'>
+const Projects = () =>
+  <main className='Projects'>
     <div>
-      <h1>Portfolio</h1>
+      <h1>project</h1>
     </div>
     <div>
-      <h2>portfolio item 1</h2>
+      <h2>project item 1</h2>
       <p>Description</p>
     </div>
     <div>
-      <h2>portfolio item 2</h2>
+      <h2>project item 2</h2>
       <p>Description</p>
     </div>
     <div>
-      <h2>portfolio item 3</h2>
+      <h2>project item 3</h2>
       <p>Description</p>
     </div>
   </main>
 
-export default Portfolio
+export default Projects

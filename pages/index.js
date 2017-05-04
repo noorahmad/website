@@ -5,8 +5,7 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import Home from '../components/home'
 import About from '../components/about'
-import Skills from '../components/skills'
-import Portfolio from '../components/portfolio'
+import Projects from '../components/projects'
 import Contact from '../components/contact'
 
 export default class Index extends React.Component {
@@ -15,8 +14,7 @@ export default class Index extends React.Component {
         <div>
           <Home />
           <About />
-          <Skills />
-          <Portfolio />
+          <Projects />
           <Contact />
         </div>
       );
