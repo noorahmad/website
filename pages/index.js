@@ -8,7 +8,7 @@ import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 
-const mains = [<Home />, <About />, <Projects />, <Contact />]
+const mains = [ <Home />, <About />, <Projects />, <Contact /> ]
 
 const Index = () =>
   <div className='index-wrapper'>

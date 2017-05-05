@@ -1,14 +1,13 @@
 import React from 'react'
 
-const ContactListItem = ({ text, icon, href }) =>
+const ContactListItem = ({ icon, href, iconAlt }) =>
   <li className='ContactListItem'>
-    <i className={`fa fa-${icon}`} />
+    <a href={href}><img src={icon} alt={iconAlt} /></a>
     <span style={{ marginRight: '12px' }} />
-    <a href={href}>{text}</a>
   </li>
 
   const propTypes = {
-    text: React.PropTypes.string,
+    iconAlt: React.PropTypes.string,
     icon: React.PropTypes.string,
     href: React.PropTypes.string
   }
