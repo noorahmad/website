@@ -10,7 +10,7 @@ const Contact = () =>
 
     <ContactListItem
       icon={prefixLink('/icon/facebook.svg')}
-      href='https://https://www.facebook.com/noorahmad23'
+      href='https://www.facebook.com/noorahmad23'
       iconAlt='Facebook: noorahmad23'
     />
 
@@ -37,7 +37,7 @@ const Contact = () =>
         href='https://soundcloud.com/noor-ahmad-2'
         iconAlt='Soundcloud: noor-ahmad-2'
       />
-      
+
     </ul>
 
   </main>

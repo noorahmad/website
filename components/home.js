@@ -11,7 +11,7 @@ const Home = () =>
     </div>
     <div>
       <h1>NOOR AHMAD</h1>
-      <h3>PART TIME ENGINEER. FULL TIME SAVAGE.</h3>
+      <h3>FRONT END ENGINEER.</h3>
     </div>
 
   </main>
