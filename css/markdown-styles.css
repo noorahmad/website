@@ -97,3 +97,36 @@
 .hljs-strong {
   font-weight: bold;
 }
+
+.Portrait {
+  width:260px;
+  height:260px;
+  background-size:cover;
+  background-position:center;
+  border-radius: 200px;
+  margin:auto;
+  margin-bottom: 30px;
+}
+
+.ProjectItem img {
+  max-width: 100px;
+  max-height: 100px;
+  float:left;
+  margin-right:10px;
+  padding-right:20px;
+}
+
+.ProjectItem {
+  padding:30px;
+}
+
+.ContactListItem {
+  list-style-type: none;
+  display:inline-block;
+  position:relative;
+  padding:40px;
+}
+
+.contact-list-items {
+  text-align:center;
+}

@@ -1,11 +1,15 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
 import ProjectItem from './projectItem'
+import styled from 'styled-components'
+import {Margin,Padding} from 'styled-components-spacing'
 
 const Projects = () =>
-  <main className='Projects'>
-    <a name='projects' />
-    <h2>Projects</h2>
+<Padding all={2}>
+<ProjectsWrapper>
+  <main>
+    <ProjectDeclaration>Projects</ProjectDeclaration>
+    <hr class='small'/>
 
     <ProjectItem
       name='Whats Good Mobile Marketplace'
@@ -28,5 +32,16 @@ const Projects = () =>
       desc='Built an operating system from a template for OS which I took last summer'
     />
   </main>
+</ProjectsWrapper>
+</Padding>
+
+const ProjectsWrapper = styled.div`
+  background-color:#52796F;
+`
+
+const ProjectDeclaration = styled.h1`
+  text-align:center;
+  padding-top:40px;
+`
 
 export default Projects
