@@ -8,6 +8,7 @@ const Contact = () =>
 <Padding all={2}>
   <main className='Contact'>
     <ContactDeclaration>Contact</ContactDeclaration>
+    <hr align="left" width="100%"/>
     <ul className='contact-list-items'>
 
     <ContactListItem

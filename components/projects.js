@@ -6,9 +6,10 @@ import {Margin,Padding} from 'styled-components-spacing'
 
 const Projects = () =>
 <ProjectsWrapper>
+<Padding all={5}>
   <main>
     <ProjectDeclaration>Projects</ProjectDeclaration>
-    <hr class='small'/>
+    <hr/>
 
     <ProjectItem
       name='Whats Good Mobile Marketplace'
@@ -31,6 +32,7 @@ const Projects = () =>
       desc='Built an operating system from a template for OS which I took last summer'
     />
   </main>
+</Padding>
 </ProjectsWrapper>
 
 const ProjectsWrapper = styled.div`
