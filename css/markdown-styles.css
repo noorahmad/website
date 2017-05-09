@@ -99,8 +99,8 @@
 }
 
 .Portrait {
-  width:260px;
-  height:260px;
+  width:250px;
+  height:320px;
   background-size:cover;
   background-position:center;
   border-radius: 200px;
@@ -129,4 +129,21 @@
 
 .contact-list-items {
   text-align:center;
+}
+
+.homeContainer {
+  height:auto;
+  width:auto;
+  text-align:center;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.About {
+  width:100%;
+  height:100%;
+  margin-top:600px;
 }

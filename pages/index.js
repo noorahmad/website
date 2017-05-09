@@ -21,8 +21,8 @@ injectGlobal`
       margin: 0;
       padding: 0;
       font-family: Futura;
-      background-color:#2F3E46
-      color:#CAD2C5;
+      background-color:#1B3B6F;
+      color:#FFFFFF;
     }
 `
 

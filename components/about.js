@@ -12,14 +12,14 @@ const About = () =>
       <hr class='small'/>
         <div>
           <img className='Portrait'
-            src={prefixLink('/img/me.jpg')}
+            src={prefixLink('/img/me2.jpg')}
             alt='Photo of Noor'
           />
         </div>
       <NameDeclaration>I AM NOOR AHMAD, RECENT UNIVERSITY GRADUATE</NameDeclaration>
-        <p>I am on my journey to becoming a full stack software developer who</p>
-        <p>likes the beauty in simplicity. Im A big fan of soccer and my favorite team </p>
-        <p>is Liverpool, love techno music and I am a huge snob about it.</p>
+        <p>I am a recent university graduate looking for a career in web development</p>
+        <p>I have vast array of expertise and skills that I am hoping </p>
+        <p>will grow in the near future. Feel free to contact me at any time.</p>
     </AboutContainer>
   </Padding>
 </main>

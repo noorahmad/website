@@ -24,8 +24,6 @@ module.exports = React.createClass({
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}
         >

@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import {Margin,Padding} from 'styled-components-spacing'
 
 const Projects = () =>
-<Padding all={2}>
 <ProjectsWrapper>
   <main>
     <ProjectDeclaration>Projects</ProjectDeclaration>
@@ -33,10 +32,9 @@ const Projects = () =>
     />
   </main>
 </ProjectsWrapper>
-</Padding>
 
 const ProjectsWrapper = styled.div`
-  background-color:#52796F;
+  background-color:#065A82;
 `
 
 const ProjectDeclaration = styled.h1`
