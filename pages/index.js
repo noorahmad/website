@@ -7,9 +7,10 @@ import Home from '../components/home'
 import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import Footer from '../components/Footer'
 import { injectGlobal } from 'styled-components'
 
-const mains = [ <Home />, <About />, <Projects />, <Contact /> ]
+const mains = [ <Home />, <About />, <Projects />, <Contact />, <Footer /> ]
 
 const Index = () =>
   <div>

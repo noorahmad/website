@@ -6,10 +6,9 @@ import {Margin,Padding} from 'styled-components-spacing'
 
 const Projects = () =>
 <ProjectsWrapper>
-<Padding all={5}>
+<Padding horizontal={5}>
   <main>
     <ProjectDeclaration>Projects</ProjectDeclaration>
-    <hr/>
 
     <ProjectItem
       name='Whats Good Mobile Marketplace'
@@ -22,7 +21,7 @@ const Projects = () =>
       name='Fuel Tracking App'
       imgSrc={prefixLink('/img/fuel.svg')}
       imgAlt='Fuel Logo'
-      desc='A personal project that I decided to pursue was a fuel tracking app. I wanted to familiarize with Swift and Xcode so I decided to build an app that was used to track and store fuel consumption, as well as calculate different data such as spending on fuel, distance travelled, and miles per gallon, among other things.'
+      desc='A personal project that I decided to pursue was a fuel tracking app. I wanted to familiarize myself with Swift and Xcode so I chose to build an app that was used to track and store fuel consumption, as well as calculate different data such as spending on fuel, distance travelled, and miles per gallon, among other things.'
     />
 
     <ProjectItem
@@ -42,6 +41,7 @@ const ProjectsWrapper = styled.div`
 const ProjectDeclaration = styled.h1`
   text-align:center;
   padding-top:40px;
+  text-decoration:underline;
 `
 
 export default Projects

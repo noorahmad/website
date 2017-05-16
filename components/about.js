@@ -8,8 +8,7 @@ const About = () =>
 <main className='About'>
   <Padding all={5}>
     <AboutContainer>
-      <h1>About Me</h1>
-      <hr class='small'/>
+      <h1 className='AboutHeader'>About Me</h1>
         <div>
           <img className='Portrait'
             src={prefixLink('/img/me2.jpg')}

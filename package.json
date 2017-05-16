@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Noor's Portfolio Website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Noor Ahmad <noorahmad23@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "gatsby": "^0.12.45",
@@ -23,7 +23,8 @@
     "styled-components-spacing": "^2.0.4",
     "typography": "^0.15.8",
     "typography-breakpoint-constants": "^0.14.0",
-    "typography-plugin-code": "^0.15.9"
+    "typography-plugin-code": "^0.15.9",
+    "homepage": "https://noorahmad.github.io/website"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
