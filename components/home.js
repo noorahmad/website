@@ -9,7 +9,7 @@ const Home = () =>
     <Padding all={6}>
       <Headline>
         <NameHome>NOOR AHMAD</NameHome>
-        <Desc>FRONT END ENGINEER</Desc>
+        <Desc>Software Engineer</Desc>
       </Headline>
     </Padding>
   </div>

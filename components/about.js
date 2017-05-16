@@ -17,9 +17,9 @@ const About = () =>
           />
         </div>
       <NameDeclaration>I AM NOOR AHMAD</NameDeclaration>
-        <p>I am a recent university graduate looking for a career in web development</p>
-        <p>I have vast array of expertise and skills that I am hoping </p>
-        <p>will grow in the near future. Feel free to contact me at any time.</p>
+        <p>I am a recent university graduate looking for a career in web development.</p>
+        <p>Ever since I was young Ive had a passion for building things and now I am able to realize that passion through software development.</p>
+        <p>Aside from these tech related subjects, my interests include soccer (Go Liverpool!) and Im a huge fan of tech house music (check out my soundcloud feed).</p>
     </AboutContainer>
   </Padding>
 </main>

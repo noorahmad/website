@@ -9,6 +9,7 @@ const Contact = () =>
   <main className='Contact'>
     <ContactDeclaration>Contact</ContactDeclaration>
     <hr align="left" width="100%"/>
+    <ContactDesc>Feel free to get reach out to me below!</ContactDesc>
     <ul className='contact-list-items'>
 
     <ContactListItem
@@ -49,6 +50,10 @@ const Contact = () =>
 const ContactDeclaration = styled.h1`
     text-align:center;
     padding-top: 30px;
+`
+
+const ContactDesc = styled.h3`
+  text-align:center;
 `
 
 
