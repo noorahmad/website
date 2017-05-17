@@ -1,9 +1,9 @@
 .index-wrapper {
-  margin: 0px;
-  padding-bottom: 5px;
   font-family: Futura;
   background-color: #1B3B6F;
   color:#FFFFFF;
+  height:auto;
+  width: auto;
 }
 
 .Portrait {
@@ -59,6 +59,7 @@
 .ContactContainer {
   background-color:#347FC4;
   text-align: center;
+  padding-top:10px;
 }
 
 .AboutHeader {
@@ -92,6 +93,7 @@
   background-color: #065A82;
   padding-left:50px;
   padding-right: 50px;
+  padding-bottom: 20px;
 }
 
 .ProjectTitle {
@@ -108,4 +110,5 @@
 
 .FooterContainer {
   text-align: center;
+  padding-bottom: 10px;
 }

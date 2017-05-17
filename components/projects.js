@@ -25,7 +25,7 @@ const Projects = () =>
       name='NachOS'
       imgSrc='http://i.imgur.com/xcatoL4.png'
       imgAlt='Some icon for nachos placeholder'
-      desc='One of the final projects I worked on in university was the NachOS operating system. My group built a working operating system under the NachOS framework in Java, which implemented synchronization constructs, a priority scheduler, user threads using syscall interface to provide access to file system and I/O, a network interface with a chat server/client program.'
+      desc='One of the final projects I worked on in university was the NachOS operating system. My group built a working operating system under the NachOS framework in Java, which implemented synchronization constructs, a priority scheduler, user threads using syscall interface to provide access to file system and I/O, and a network interface with a chat server/client program.'
     />
   </main>
 </div>

@@ -7,7 +7,7 @@ const About = () =>
       <h1 className='AboutHeader'>About Me</h1>
         <div>
           <img className='Portrait'
-            src='http://i.imgur.com/3Y6NOi3.jpg'
+            src='http://i.imgur.com/VDOt0Sf.jpg'
             alt='Photo of Noor'
           />
         </div>

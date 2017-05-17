@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle } from 'react-typography'
 import typography from './utils/typography'
 import { link } from 'gatsby-helpers'
+import DocumentTitle from 'react-document-title'
 
 const BUILD_TIME = new Date().getTime()
 
@@ -15,7 +16,6 @@ module.exports = React.createClass({
   },
   render() {
     const head = Helmet.rewind()
-
     let css
     if (process.env.NODE_ENV === 'production') {
       css = (
@@ -26,7 +26,6 @@ module.exports = React.createClass({
         />
       )
     }
-
     return (
       <html lang="en">
         <head>
@@ -46,7 +45,6 @@ module.exports = React.createClass({
             id="react-mount"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
-          <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
       </html>
