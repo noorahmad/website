@@ -1,14 +1,11 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
 import ContactListItem from '../components/contactListItem'
-import styled from 'styled-components'
-import {Padding} from 'styled-components-spacing'
 
 const Contact = () =>
-  <main className='Contact'>
-  <Padding horizontal={2}>
-    <ContactDeclaration>Contact</ContactDeclaration>
-    <ContactDesc>Feel free to reach out to me below!</ContactDesc>
+<div className='ContactContainer'>
+    <h1 className='ContactDeclaration'>Contact</h1>
+    <h3>Feel free to reach out to me below!</h3>
     <ul className='contact-list-items'>
 
     <ContactListItem
@@ -42,18 +39,7 @@ const Contact = () =>
       />
 
     </ul>
-</Padding>
-  </main>
-
-const ContactDeclaration = styled.h1`
-    text-align:center;
-    padding-top: 30px;
-    text-decoration:underline;
-`
-
-const ContactDesc = styled.h3`
-  text-align:center;
-`
+</div>
 
 
 

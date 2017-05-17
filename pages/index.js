@@ -8,23 +8,13 @@ import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 import Footer from '../components/Footer'
-import { injectGlobal } from 'styled-components'
 
 const mains = [ <Home />, <About />, <Projects />, <Contact />, <Footer /> ]
 
 const Index = () =>
-  <div>
-    {mains.map((p, i) => <div key={i} className='index-main-wrapper'>{p}</div>)}
-  </div>
+ <div className='index-wrapper'>
+   {mains.map((p, i) => <div key={i} className='index-main-wrapper'>{p}</div>)}
+ </div>
 
-injectGlobal`
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Futura;
-      background-color:#1B3B6F;
-      color:#FFFFFF;
-    }
-`
 
 export default Index

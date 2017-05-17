@@ -1,14 +1,11 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
 import ProjectItem from './projectItem'
-import styled from 'styled-components'
-import {Margin,Padding} from 'styled-components-spacing'
 
 const Projects = () =>
-<ProjectsWrapper>
-<Padding horizontal={5}>
+<div className='ProjectsContainer'>
   <main>
-    <ProjectDeclaration>Projects</ProjectDeclaration>
+    <h1 className='ProjectTitle'>Projects</h1>
 
     <ProjectItem
       name='Whats Good Mobile Marketplace'
@@ -31,17 +28,6 @@ const Projects = () =>
       desc='One of the final projects I worked on in university was the NachOS operating system. My group built a working operating system under the NachOS framework in Java, which implemented synchronization constructs, a priority scheduler, user threads using syscall interface to provide access to file system and I/O, a network interface with a chat server/client program.'
     />
   </main>
-</Padding>
-</ProjectsWrapper>
-
-const ProjectsWrapper = styled.div`
-  background-color:#065A82;
-`
-
-const ProjectDeclaration = styled.h1`
-  text-align:center;
-  padding-top:40px;
-  text-decoration:underline;
-`
+</div>
 
 export default Projects

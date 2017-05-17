@@ -1,13 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
 
 const Footer = () =>
-  <FooterContainer>
-    <p>Built by Noor Ahmad using Gatsby</p>
-  </FooterContainer>
-
-const FooterContainer = styled.footer`
-  text-align:center;
-`
+  <footer>
+    <div className='FooterContainer'>
+      <p>Built by Noor Ahmad using Gatsby</p>
+    </div>
+  </footer>
 
 export default Footer
