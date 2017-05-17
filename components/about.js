@@ -1,14 +1,13 @@
 import React from 'react'
 import {prefixLink } from 'gatsby-helpers'
 
-
 const About = () =>
 <main className='About'>
     <div className='AboutContainer'>
       <h1 className='AboutHeader'>About Me</h1>
         <div>
           <img className='Portrait'
-            src={prefixLink('/img/me2.jpg')}
+            src='http://i.imgur.com/3Y6NOi3.jpg'
             alt='Photo of Noor'
           />
         </div>

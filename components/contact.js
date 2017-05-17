@@ -9,31 +9,31 @@ const Contact = () =>
     <ul className='contact-list-items'>
 
     <ContactListItem
-      icon={prefixLink('/icon/facebook.svg')}
+      icon='http://i.imgur.com/GBorIwZ.png'
       href='https://www.facebook.com/noorahmad23'
       iconAlt='Facebook: noorahmad23'
     />
 
       <ContactListItem
-        icon={prefixLink('/icon/github.svg')}
+        icon='http://i.imgur.com/NI4lwAs.png'
         href='https://github.com/noorahmad'
         iconAlt='Github: noorahmad'
       />
 
       <ContactListItem
-        icon={prefixLink('/icon/linkedin.svg')}
+        icon='http://i.imgur.com/YIC9WYt.png'
         href='https://linkedin.com/in/noor-ahmad-619334133/'
         iconAlt='LinkedIn: Noor Ahmad'
       />
 
       <ContactListItem
-        icon={prefixLink('/icon/mail.svg')}
+        icon='http://i.imgur.com/sw0EO99.png'
         href='mailto:noorahmad23@gmail.com'
         iconAlt='Email: noorahmad23@gmail.com'
       />
 
       <ContactListItem
-        icon={prefixLink('/icon/soundcloud.svg')}
+        icon='http://i.imgur.com/xRbAFcd.png'
         href='https://soundcloud.com/noor-ahmad-2'
         iconAlt='Soundcloud: noor-ahmad-2'
       />
